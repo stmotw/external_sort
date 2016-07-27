@@ -8,8 +8,10 @@ Usage:
 `bin/external_sort input_file output_file [memory_limit [threads_count [no_of_ways_for_merge]]]`
 
 `memory_limit` specifies memory pool for sorting in MB defaulting to 10 and always between 0 and
-256.
+256
+
 `threads_count` specifies number of thread used defaulting to 4
+
 `no_of_ways_for_merge` specifies how many chunks will be used in one merge operation defaulting to
 2.
 
