@@ -1,11 +1,11 @@
 #external_sort
-Multithread external sorting realisation for c++14 (gcc 4.8)
+Multithread external sorting realization for c++14 (gcc 4.8)
 
 Build:
-`make`
+```make```
 
 Usage:
-`bin/external_sort input_file output_file [memory_limit [threads_count [no_of_ways_for_merge]]]`
+```bin/external_sort input_file output_file [memory_limit [threads_count [no_of_ways_for_merge]]]```
 
 `memory_limit` specifies memory pool for sorting in MB defaulting to 10 and always between 0 and
 256
